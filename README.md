@@ -18,6 +18,7 @@ These service can perform,
 * Login user
 ## Technologies
 * [Spring Boot](https://spring.io/projects/spring-boot)
+* [Eureka](https://spring.io/guides/gs/service-registration-and-discovery/)
 * [Mysql](https://www.mysql.com)
 * [Spring Data Jpa](https://spring.io/projects/spring-data-jpa)
 * [Swagger](https://swagger.io)
@@ -29,5 +30,5 @@ This project used Maven as build tools
 ## Documentation
 - [Swagger](http://localhost:8090/swagger-ui.html#)
 ## Versions
-1) [0.0.1-SNAPSHOT](https://github.com/roghayehfarhadi/phonebook/releases/tag/v0.0.1-SNAPSHOT)  
+1) [0.0.1-SNAPSHOT](https://github.com/roghayehfarhadi/profile/)  
     - Login user
