@@ -8,6 +8,8 @@ import javax.persistence.Table;
 @Getter
 @Table(name = "user")
 @Entity(name = "user")
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserEntity extends BaseEntity {
     private String userName;
     private String password;

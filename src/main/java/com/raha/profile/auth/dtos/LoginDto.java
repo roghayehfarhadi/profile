@@ -1,12 +1,14 @@
 package com.raha.profile.auth.dtos;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import lombok.Builder;
 import lombok.Getter;
 
 import javax.validation.constraints.NotBlank;
 
 import static com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.ANY;
 
+@Builder
 @Getter
 @JsonAutoDetect(fieldVisibility = ANY)
 public class LoginDto {
